@@ -2,10 +2,12 @@
 
 
 #include "Character/AuraCharacter.h"
+#include "AbilitySystem/AuraAbilitySystemComponent.h"
 
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Player/AuraPlayerState.h"
 
 AAuraCharacter::AAuraCharacter() {
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(FName("SprintArm"));
@@ -28,9 +30,31 @@ AAuraCharacter::AAuraCharacter() {
 	bUseControllerRotationPitch = false;
 
 	// 例如, 当按下 d, 角色会向右旋转
-	auto TempV = GetCharacterMovement();
+	const auto TempV = GetCharacterMovement();
 	TempV->bConstrainToPlane = true;
 	TempV->bSnapToPlaneAtStart = true;
 	TempV->bOrientRotationToMovement = true;
 	TempV->RotationRate = FRotator(0, 400.f, 0);
+}
+
+void AAuraCharacter::PossessedBy(AController* NewController) {
+	Super::PossessedBy(NewController);
+	InitAbilityActorInfo(); // for server
+}
+
+void AAuraCharacter::OnRep_PlayerState() {
+	Super::OnRep_PlayerState();
+	InitAbilityActorInfo(); // for client
+}
+
+void AAuraCharacter::BeginPlay() {
+	Super::BeginPlay();
+}
+
+void AAuraCharacter::InitAbilityActorInfo() {
+	if (const auto AuraPlayerState = GetPlayerState<AAuraPlayerState>()){
+		AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
+		AttributeSet = AuraPlayerState->GetAttributeSet();
+		AbilitySystemComponent->InitAbilityActorInfo( AuraPlayerState, this);
+	}
 }

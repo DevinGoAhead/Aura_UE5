@@ -17,3 +17,7 @@ void AAuraCharacterBase::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 }
 
+UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const {
+	return AbilitySystemComponent;
+}
+
