@@ -7,7 +7,9 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Player/AuraPlayerController.h"
 #include "Player/AuraPlayerState.h"
+#include "UI/HUD/AuraHUD.h"
 
 AAuraCharacter::AAuraCharacter() {
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(FName("SprintArm"));
@@ -52,9 +54,14 @@ void AAuraCharacter::BeginPlay() {
 }
 
 void AAuraCharacter::InitAbilityActorInfo() {
-	if (const auto AuraPlayerState = GetPlayerState<AAuraPlayerState>()){
+	if (const auto AuraPlayerState = GetPlayerState<AAuraPlayerState>(); AuraPlayerState){
 		AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
 		AttributeSet = AuraPlayerState->GetAttributeSet();
 		AbilitySystemComponent->InitAbilityActorInfo( AuraPlayerState, this);
+		if (const auto PlayerController = GetController<AAuraPlayerController>(); PlayerController) {
+			if (const auto HUD = Cast<AAuraHUD>(PlayerController->GetHUD()); HUD) {
+				HUD->InitOverlay(PlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet);
+			}
+		}
 	}
 }

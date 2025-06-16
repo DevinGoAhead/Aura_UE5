@@ -24,6 +24,8 @@ public:
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxHealth);
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Mana);
 	ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxMana);
+public:
+	UAuraAttributeSet();
 protected:
 	// 这是由引擎调用的
 	UFUNCTION()
@@ -41,9 +43,9 @@ public:
 
 	// 可同步, 并且同步函数为 OnRep_Health
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Health, Category = "VitalAttributes")
-	FGameplayAttributeData Health = 10.f;
+	FGameplayAttributeData Health;
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_MaxHealth, Category = "VitalAttributes")
-	FGameplayAttributeData MaxHealth = 100.f;
+	FGameplayAttributeData MaxHealth;
 	UPROPERTY(BlueprintReadOnly, ReplicatedUsing = OnRep_Mana, Category = "VitalAttributes")
 	
 	FGameplayAttributeData Mana;

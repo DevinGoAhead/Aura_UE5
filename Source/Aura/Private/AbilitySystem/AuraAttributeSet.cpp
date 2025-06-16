@@ -5,6 +5,13 @@
 #include "AbilitySystemComponent.h"
 #include "Net/UnrealNetwork.h"
 
+UAuraAttributeSet::UAuraAttributeSet() {
+	Health = 20.f;
+	MaxHealth = 100.f;
+	Mana = 30.f;
+	MaxMana = 100.f;
+}
+
 // 将 OnRep_Health 注册到引擎的复制系统
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);

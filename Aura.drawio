@@ -1,0 +1,633 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="8216" dy="8656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="5000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="f6aN9WRtb3SBjj4KNkF6-1" target="QpYa-e8vSytoiL3D4wmG-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-554" y="734" />
+              <mxPoint x="-554" y="734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="f6aN9WRtb3SBjj4KNkF6-1" target="QpYa-e8vSytoiL3D4wmG-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-1" value="AAuraCharacterBase&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-641" y="762" width="350" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TObjectPtr&amp;lt;USkeletalMeshComponent&amp;gt; Weapon;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-1" vertex="1">
+          <mxGeometry y="26" width="350" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-1" vertex="1">
+          <mxGeometry y="70" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-4" value="AAuraCharacterBase()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-1" vertex="1">
+          <mxGeometry y="78" width="350" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-6" value="AAuraCharacter&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-48" y="598" width="456" height="259" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-7" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;public:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;AAuraCharacter();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void PossessedBy(AController* NewController) override;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void OnRep_PlayerState() override;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;private:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void InitAbilityActorInfo();&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=12;fontColor=default;" parent="f6aN9WRtb3SBjj4KNkF6-6" vertex="1">
+          <mxGeometry y="26" width="456" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-6" vertex="1">
+          <mxGeometry y="149" width="456" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-9" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TObjectPtr&amp;lt;class USpringArmComponent&amp;gt; SpringArm;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;TObjectPtr&amp;lt;class UCameraComponent&amp;gt; CameraView;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;class IEnemyInterface* CurActor = nullptr;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;class IEnemyInterface* LastActor = nullptr;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-6" vertex="1">
+          <mxGeometry y="157" width="456" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="f6aN9WRtb3SBjj4KNkF6-11" target="f6aN9WRtb3SBjj4KNkF6-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="f6aN9WRtb3SBjj4KNkF6-10" target="bwt95zcB7gyOMc8lFH_T-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-10" value="AAuraEnemy&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-48" y="898" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-11" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-10" vertex="1">
+          <mxGeometry y="26" width="350" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-10" vertex="1">
+          <mxGeometry y="70" width="350" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="f6aN9WRtb3SBjj4KNkF6-13" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;AAuraEnemy();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;virtual void BeginPlay() override;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void HighLightSelf() override;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void UnHighLightSelf() override;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="f6aN9WRtb3SBjj4KNkF6-10" vertex="1">
+          <mxGeometry y="78" width="350" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="bwt95zcB7gyOMc8lFH_T-1" target="MtLbzyPHqvkVGj7HzTfJ-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-1" value="AAuraPlayerController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-193" y="-1070" width="380" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TObjectPtr&amp;lt;class UInputMappingContext&amp;gt; AuraContext;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;class UInputAction&amp;gt; MoveAction;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-1" vertex="1">
+          <mxGeometry y="26" width="380" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-1" vertex="1">
+          <mxGeometry y="100" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-4" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;AAuraPlayerController();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void BeginPlay() override;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void SetupInputComponent() override;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void Move(const struct FInputActionValue&amp;amp; InputActionValue);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-1" vertex="1">
+          <mxGeometry y="108" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="bwt95zcB7gyOMc8lFH_T-5" target="Le2MhSb4b4ZK4iCE4Ixs-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-5" value="AAuraGameModeBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-83" y="55" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-5" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-5" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-5" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-10" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;IEnemyInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-46" y="1118" width="346" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-11" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-10" vertex="1">
+          <mxGeometry y="50" width="346" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-10" vertex="1">
+          <mxGeometry y="76" width="346" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bwt95zcB7gyOMc8lFH_T-13" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void HighLightSelf() = 0;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void UnHighLightSelf() = 0;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="bwt95zcB7gyOMc8lFH_T-10" vertex="1">
+          <mxGeometry y="84" width="346" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-5" value="&lt;div&gt;ACharacter&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-641" y="614" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-6" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-5" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-5" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-5" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-14" value="«interface»&lt;br&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;IAbilitySystemInterface&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-473" y="634" width="188" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-18" target="QpYa-e8vSytoiL3D4wmG-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-262" y="324" />
+              <mxPoint x="-262" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-18" value="AAuraPlayerState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="236" width="520" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-19" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;AAuraPlayerState();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;inline UAttributeSet* GetAttributeSet() const { return AttributeSet;}&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-18" vertex="1">
+          <mxGeometry y="26" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-18" vertex="1">
+          <mxGeometry y="126" width="520" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-21" value="&lt;div&gt;private:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;TObjectPtr&amp;lt;UAbilitySystemComponent&amp;gt; AbilitySystemComponent;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;TObjectPtr&amp;lt;UAttributeSet&amp;gt; AttributeSet;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-18" vertex="1">
+          <mxGeometry y="134" width="520" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-22" value="APlayerState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-445" y="281" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-22" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-22" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-22" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-15" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-26" target="QpYa-e8vSytoiL3D4wmG-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-26" target="QpYa-e8vSytoiL3D4wmG-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-545" y="-125" />
+              <mxPoint x="-545" y="303" />
+              <mxPoint x="-461" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-26" target="Le2MhSb4b4ZK4iCE4Ixs-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-481" y="-1094" />
+              <mxPoint x="-435" y="-1094" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-26" value="&lt;div&gt;UAuraAttributeSet&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-634" y="-443" width="610" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-27" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FGameplayAttributeData Health = 10.f;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FGameplayAttributeData MaxHealth = 100.f;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; white-space: normal;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FGameplayAttributeData Mana;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FGameplayAttributeData MaxMana;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-26" vertex="1">
+          <mxGeometry y="26" width="610" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-26" vertex="1">
+          <mxGeometry y="118" width="610" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-29" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Health);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxHealth);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ATTRIBUTE_ACCESSORS(UAuraAttributeSet, Mana);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;ATTRIBUTE_ACCESSORS(UAuraAttributeSet, MaxMana);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;public:&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;virtual void GetLifetimeReplicatedProps(&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TArray&amp;lt;class FLifetimeProperty&amp;gt;&amp;amp; OutLifetimeProps ) const override;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void OnRep_Health(const FGameplayAttributeData&amp;amp; OldHealth) const;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void OnRep_MaxHealth(const FGameplayAttributeData&amp;amp; OldMaxHealth) const;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void OnRep_Mana(const FGameplayAttributeData&amp;amp; OldMana) const;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void OnRep_MaxMana(const FGameplayAttributeData&amp;amp; OldMaxMana) const;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-26" vertex="1">
+          <mxGeometry y="126" width="610" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-30" target="QpYa-e8vSytoiL3D4wmG-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" target="f6aN9WRtb3SBjj4KNkF6-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-918" y="1045" />
+            </Array>
+            <mxPoint x="-918.0020000000002" y="-155" as="sourcePoint" />
+            <mxPoint x="-107.06000000000019" y="1043.8319999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-30" target="QpYa-e8vSytoiL3D4wmG-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-810" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-30" value="UAuraAbilitySystemComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-965" y="-231" width="210" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-31" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-30" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-30" vertex="1">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-33" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-30" vertex="1">
+          <mxGeometry y="60" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-34" value="&lt;div&gt;UAttributeSet&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-409" y="-583" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-34" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-36" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-34" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-37" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-34" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-38" value="UAbilitySystemComponent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-955" y="-356" width="190" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-39" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-38" vertex="1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-38" vertex="1">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYa-e8vSytoiL3D4wmG-41" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="QpYa-e8vSytoiL3D4wmG-38" vertex="1">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="f6aN9WRtb3SBjj4KNkF6-7" target="f6aN9WRtb3SBjj4KNkF6-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-11" value="AActor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="575" y="-587" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-12" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-11" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-11" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-14" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-11" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Jp8Knx8fXt7N0rmtqNwh-19" target="Jp8Knx8fXt7N0rmtqNwh-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=12;" parent="1" source="Jp8Knx8fXt7N0rmtqNwh-19" target="QpYa-e8vSytoiL3D4wmG-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317" y="-253" />
+              <mxPoint x="317" y="-253" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-94" value="Modify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Code Regular;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Le2MhSb4b4ZK4iCE4Ixs-93" vertex="1" connectable="0">
+          <mxGeometry x="-0.2179" y="-6" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-19" value="AAuraEffectActor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="430" y="-457" width="450" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-20" value="&lt;div&gt;private:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;UStaticMeshComponent&amp;gt; Mesh;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;USphereComponent&amp;gt; Sphere;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-19" vertex="1">
+          <mxGeometry y="26" width="450" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-19" vertex="1">
+          <mxGeometry y="80" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Jp8Knx8fXt7N0rmtqNwh-22" value="public:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AAuraEffectActor();&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;virtual void Tick(float DeltaTime) override;&lt;br&gt;&lt;br&gt;&lt;br&gt;protected:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;virtual void BeginPlay() override;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;void OnBeginOverlap(UPrimitiveComponent* OverlappedComponent,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AActor* OtherActor,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UPrimitiveComponent* OtherComp,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int32 OtherBodyIndex,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bool bFromSweep,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;const FHitResult&amp;amp; SweepResult);&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;void OnEndOverlap(UPrimitiveComponent* OverlappedComponent,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AActor* OtherActor,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UPrimitiveComponent* OtherComp,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int32 OtherBodyIndex);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Jp8Knx8fXt7N0rmtqNwh-19" vertex="1">
+          <mxGeometry y="88" width="450" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-2" target="f6aN9WRtb3SBjj4KNkF6-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="431" y="729" />
+              <mxPoint x="431" y="729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-2" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_AuraCharacer&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="498" y="703.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-3" target="f6aN9WRtb3SBjj4KNkF6-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-3" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_Enemy&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="486" y="959" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-4" target="bwt95zcB7gyOMc8lFH_T-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-4" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_AuraController&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="239" y="-976" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-5" target="QpYa-e8vSytoiL3D4wmG-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-5" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_PlayerState&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="326" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-6" target="bwt95zcB7gyOMc8lFH_T-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-6" target="Le2MhSb4b4ZK4iCE4Ixs-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="-770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="222" y="-729" />
+              <mxPoint x="304" y="-729" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-88" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Fira Code Regular;" parent="Le2MhSb4b4ZK4iCE4Ixs-86" vertex="1" connectable="0">
+          <mxGeometry x="-0.0674" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=12;" parent="1" target="Le2MhSb4b4ZK4iCE4Ixs-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="226" y="127" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="226" y="140" />
+              <mxPoint x="381" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-90" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Code Regular;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Le2MhSb4b4ZK4iCE4Ixs-89" vertex="1" connectable="0">
+          <mxGeometry x="0.3035" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=12;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-6" target="Le2MhSb4b4ZK4iCE4Ixs-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="291" y="111" />
+              <mxPoint x="558" y="111" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-92" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Code Regular;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="Le2MhSb4b4ZK4iCE4Ixs-91" vertex="1" connectable="0">
+          <mxGeometry x="0.3473" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=open;endSize=12;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-6" target="MtLbzyPHqvkVGj7HzTfJ-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1033" y="86" />
+              <mxPoint x="1033" y="-1957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-35" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Fira Code Regular;fontSize=16;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="MtLbzyPHqvkVGj7HzTfJ-34" vertex="1" connectable="0">
+          <mxGeometry x="0.1991" y="4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-6" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_AuraGameMode&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="161" y="73" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-13" value="UUserWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-774" y="-1661" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-13" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-13" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-13" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-17" target="Le2MhSb4b4ZK4iCE4Ixs-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-17" value="UAuraUserWidget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-551" y="-1698" width="450" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-18" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;UObject&amp;gt; WidgetController;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-17" vertex="1">
+          <mxGeometry y="26" width="450" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-17" vertex="1">
+          <mxGeometry y="80" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-20" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void SetWidgetController(UObject* InWidgetController);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void WidgetControllerSet();&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-17" vertex="1">
+          <mxGeometry y="88" width="450" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-22" value="UObject" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-799" y="-1331" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-23" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-22" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-22" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-25" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-22" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-26" target="Le2MhSb4b4ZK4iCE4Ixs-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-26" value="UAuraWidgetController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-587" y="-1423" width="469" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-27" value="public:&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;void InitWidgetController(const FWidgetControllerParams&amp;amp; WCP);&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;virtual void BroadcastInitValue();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;virtual void BindCallbacksToDependencies() override;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;autosize=1;" parent="Le2MhSb4b4ZK4iCE4Ixs-26" vertex="1">
+          <mxGeometry y="26" width="469" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-26" vertex="1">
+          <mxGeometry y="92" width="469" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-29" value="&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;APlayerController&amp;gt; PlayerController;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;APlayerState&amp;gt; PlayerState;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;UAbilitySystemComponent&amp;gt; AbilitySystemComponent;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;UAttributeSet&amp;gt; AttributeSet;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="Le2MhSb4b4ZK4iCE4Ixs-26" vertex="1">
+          <mxGeometry y="100" width="469" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="Le2MhSb4b4ZK4iCE4Ixs-30" target="Jp8Knx8fXt7N0rmtqNwh-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-30" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_HealthPotion&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="590" y="-77" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-73" value="&amp;nbsp;AGameModeBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-434" y="55" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-74" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="Le2MhSb4b4ZK4iCE4Ixs-73" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="Le2MhSb4b4ZK4iCE4Ixs-73" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-76" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="Le2MhSb4b4ZK4iCE4Ixs-73" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Le2MhSb4b4ZK4iCE4Ixs-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-29" target="f6aN9WRtb3SBjj4KNkF6-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-720" y="-169" />
+              <mxPoint x="-720" y="1023" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="MtLbzyPHqvkVGj7HzTfJ-1" target="Le2MhSb4b4ZK4iCE4Ixs-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-1" value="UOverlayWidgetController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-42" y="-1471" width="500" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-2" value="&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FOnHealthChangedSignature OnHealthChanged;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FOnMaxHealthChangedSignature OnMaxHealthChanged;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FOnManaChangedSignature OnManaChanged;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;FOnMaxManaChangedSignature OnMaxManaChanged;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-1" vertex="1">
+          <mxGeometry y="26" width="500" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-1" vertex="1">
+          <mxGeometry y="110" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-4" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;public:&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp; &amp;nbsp; virtual void BroadcastInitValue();&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11px; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;virtual void BindCallbacksToDependencies() override;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;font&gt;&lt;div style=&quot;&quot;&gt;protected:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;void HealthChanged(const FOnAttributeChangeData&amp;amp; NewData) const;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;void MaxHealthChanged(const FOnAttributeChangeData&amp;amp; NewData) const;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;void ManaChanged(const FOnAttributeChangeData&amp;amp; NewData) const;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;void MaxManaChanged(const FOnAttributeChangeData&amp;amp; NewData) const;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-1" vertex="1">
+          <mxGeometry y="118" width="500" height="157" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-8" value="&lt;div&gt;UAttributeSet&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="-451" y="-994" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-9" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-8" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-8" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-11" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="MtLbzyPHqvkVGj7HzTfJ-8" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="i0X7MaTl0zVXe84YkB-w-21" target="Le2MhSb4b4ZK4iCE4Ixs-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="531" y="-1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="i0X7MaTl0zVXe84YkB-w-21" target="MtLbzyPHqvkVGj7HzTfJ-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-19" value="AHUD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-641" y="-2022" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-20" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-19" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-19" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-22" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-19" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="MtLbzyPHqvkVGj7HzTfJ-24" target="MtLbzyPHqvkVGj7HzTfJ-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-24" value="AAuraHUD" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-400.5" y="-2099" width="797" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-25" value="&lt;div&gt;public:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams&amp;amp; WCP);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;private:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;void InitOverlayWidgetController(const FWidgetControllerParams&amp;amp; WCP);&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-24" vertex="1">
+          <mxGeometry y="26" width="797" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-24" vertex="1">
+          <mxGeometry y="125" width="797" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-27" value="&lt;div&gt;protected:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; TObjectPtr&amp;lt;UAuraUserWidget&amp;gt; OverlayWidget;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TObjectPtr&amp;lt;UOverlayWidgetController&amp;gt; OverlayWidgetController;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;private:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; TSubclassOf&amp;lt;UAuraUserWidget&amp;gt; OverlayWidgetClass;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;TSubclassOf&amp;lt;UOverlayWidgetController&amp;gt; OverlayWidgetControllerClass;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;" parent="MtLbzyPHqvkVGj7HzTfJ-24" vertex="1">
+          <mxGeometry y="133" width="797" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="MtLbzyPHqvkVGj7HzTfJ-30" target="MtLbzyPHqvkVGj7HzTfJ-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="-1953" />
+              <mxPoint x="459" y="-1953" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtLbzyPHqvkVGj7HzTfJ-30" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_AuraHUD&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="614" y="-1979" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" target="Le2MhSb4b4ZK4iCE4Ixs-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-966" y="-167.5" as="sourcePoint" />
+            <mxPoint x="-274" y="-1165" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1011" y="-167" />
+              <mxPoint x="-1011" y="-1165" />
+              <mxPoint x="-500" y="-1165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="bwt95zcB7gyOMc8lFH_T-1" target="Le2MhSb4b4ZK4iCE4Ixs-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3" y="-1090" />
+              <mxPoint x="-372" y="-1090" />
+            </Array>
+            <mxPoint x="-81" y="-1142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="QpYa-e8vSytoiL3D4wmG-19" target="Le2MhSb4b4ZK4iCE4Ixs-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="402" y="278" />
+              <mxPoint x="402" y="-1163" />
+              <mxPoint x="-258" y="-1163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="iIiPzhXCQI-lPlPYXpOq-1" target="MtLbzyPHqvkVGj7HzTfJ-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="818" y="-1235" />
+              <mxPoint x="818" y="-1894" />
+              <mxPoint x="717" y="-1894" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="qNcFnFfl9rL02QniC6ls-10" target="Le2MhSb4b4ZK4iCE4Ixs-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-65" y="-1647" />
+              <mxPoint x="-65" y="-1647" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-10" value="«Blueprint»&lt;br&gt;&lt;b&gt;WBP_GlobeProgressBar&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="-59" y="-1668" width="166" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="qNcFnFfl9rL02QniC6ls-11" target="qNcFnFfl9rL02QniC6ls-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136" y="-1688" />
+              <mxPoint x="136" y="-1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="qNcFnFfl9rL02QniC6ls-11" target="i0X7MaTl0zVXe84YkB-w-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="-1688" />
+              <mxPoint x="438" y="-1672" />
+              <mxPoint x="570" y="-1672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-11" value="«Blueprint»&lt;br&gt;&lt;b&gt;WBP_Health&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GlobeProgressBar&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="171" y="-1713" width="213" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="qNcFnFfl9rL02QniC6ls-12" target="qNcFnFfl9rL02QniC6ls-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="136" y="-1622" />
+              <mxPoint x="136" y="-1638" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=diamond;endFill=1;endSize=8;" parent="1" source="qNcFnFfl9rL02QniC6ls-12" target="i0X7MaTl0zVXe84YkB-w-21" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="439" y="-1622" />
+              <mxPoint x="439" y="-1658" />
+              <mxPoint x="570" y="-1658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qNcFnFfl9rL02QniC6ls-12" value="«Blueprint»&lt;br&gt;&lt;b&gt;WBP_Mana&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GlobeProgressBar&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="171" y="-1647" width="213" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iIiPzhXCQI-lPlPYXpOq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Fira Code Regular;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=block;endFill=0;endSize=8;" parent="1" source="iIiPzhXCQI-lPlPYXpOq-1" target="MtLbzyPHqvkVGj7HzTfJ-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iIiPzhXCQI-lPlPYXpOq-1" value="«Blueprint»&lt;br&gt;&lt;b&gt;BP_&lt;/b&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;OverlayWidgetController&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontFamily=Fira Code Regular;autosize=1;" parent="1" vertex="1">
+          <mxGeometry x="564" y="-1251" width="210" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="i0X7MaTl0zVXe84YkB-w-21" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«Blueprint»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b style=&quot;&quot;&gt;WBP_Overlay&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="1" vertex="1">
+          <mxGeometry x="472" y="-1720" width="329" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="i0X7MaTl0zVXe84YkB-w-22" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="i0X7MaTl0zVXe84YkB-w-21" vertex="1">
+          <mxGeometry y="41" width="329" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="i0X7MaTl0zVXe84YkB-w-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Fira Code Regular;" parent="i0X7MaTl0zVXe84YkB-w-21" vertex="1">
+          <mxGeometry y="67" width="329" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="i0X7MaTl0zVXe84YkB-w-24" value="Set Controller of&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;WBP_Health&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; background-color: transparent;&quot;&gt;GlobeProgressBar&lt;/b&gt;&lt;div&gt;Set Controller of&amp;nbsp;&lt;b style=&quot;text-align: center;&quot;&gt;WBP_Mana&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: center;&quot;&gt;GlobeProgressBar&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; background-color: transparent;&quot;&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontFamily=Fira Code Regular;" parent="i0X7MaTl0zVXe84YkB-w-21" vertex="1">
+          <mxGeometry y="75" width="329" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

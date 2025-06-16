@@ -34,7 +34,8 @@ void AAuraEffectActor::OnBeginOverlap(UPrimitiveComponent* OverlappedComponent,
 		// ASCInterface 指向 AActor*,  AActor* 指向AuraCharacter,  AuraCharacter 的基类 AuraCharacterBase 中定义了 GetAbilitySystemComponent
 		const auto AuraAttributeSet = Cast<UAuraAttributeSet>(ASCInterface->GetAbilitySystemComponent()->GetAttributeSet(UAttributeSet::StaticClass()));
 		auto TempV = const_cast<UAuraAttributeSet*>(AuraAttributeSet);
-		TempV->SetHealth(TempV->GetHealth() * 2);
+		TempV->SetHealth(TempV->GetHealth() * 1.5);
+		TempV->SetMana(TempV->GetMana() * 1.5);
 	}
 	Destroy();
 }
