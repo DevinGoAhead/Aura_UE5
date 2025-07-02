@@ -22,7 +22,6 @@ AAuraEnemy::AAuraEnemy() {
 
 void AAuraEnemy::BeginPlay() {
 	Super::BeginPlay();
-	AbilitySystemComponent->InitAbilityActorInfo(this, this); // Owner == Avatar == This
 }
 
 void AAuraEnemy::HighLightSelf() {
@@ -33,4 +32,10 @@ void AAuraEnemy::HighLightSelf() {
 void AAuraEnemy::UnHighLightSelf() {
 	//DRAW_DEBUG_SPHERE(this, GetActorLocation(), 24, 12, FColor::Red);
 	GetMesh()->SetRenderCustomDepth(false);
+}
+
+void AAuraEnemy::InitAbilityActorInfo(){
+	Super::InitAbilityActorInfo();
+	AbilitySystemComponent->InitAbilityActorInfo(this, this); // Owner == Avatar == This
+	Cast<UAuraAbilitySystemComponent>(AbilitySystemComponent)->AbilityActorInfoSet(); // AbilityActorInfoSet 非多态, 调用与指针类型有关 
 }

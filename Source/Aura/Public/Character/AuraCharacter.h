@@ -19,8 +19,9 @@ public:
 	virtual void OnRep_PlayerState() override;
 protected:
 	virtual void BeginPlay() override;
+	virtual void InitAbilityActorInfo() override;
 private:
-	void InitAbilityActorInfo();
+
 private:
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<class USpringArmComponent> SpringArm;

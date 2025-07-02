@@ -8,13 +8,7 @@
 #include "UI/Widget/AuraUserWidget.h"
 #include "UI/WidgetController/OverlayWidgetController.h"
 
-// void AAuraHUD::BeginPlay() {
-// 	Super::BeginPlay();
-// 	if (UUserWidget* UserWidget = CreateWidget<UUserWidget>(GetWorld(), OverlayWidgetClass)) {
-// 		UserWidget->AddToViewport();
-// 	}
-// }
-
+// 在 AAuraCharacter::InitAbilityActorInfo 中被调用
 void AAuraHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS) {
 	checkf(OverlayWidgetClass, TEXT("OverlayWidgetClass is invalid"));
 	checkf(OverlayWidgetControllerClass, TEXT("OverlayWidgetControllerClass is invalid"));

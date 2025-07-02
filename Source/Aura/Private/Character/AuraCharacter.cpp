@@ -38,7 +38,7 @@ AAuraCharacter::AAuraCharacter() {
 	TempV->bOrientRotationToMovement = true;
 	TempV->RotationRate = FRotator(0, 400.f, 0);
 }
-
+// 在 APlayerController::OnPossess 被调用(引擎调用)
 void AAuraCharacter::PossessedBy(AController* NewController) {
 	Super::PossessedBy(NewController);
 	InitAbilityActorInfo(); // for server
@@ -52,12 +52,13 @@ void AAuraCharacter::OnRep_PlayerState() {
 void AAuraCharacter::BeginPlay() {
 	Super::BeginPlay();
 }
-
+// 在 AAuraCharacter::PossessedBy 中被调用
 void AAuraCharacter::InitAbilityActorInfo() {
 	if (const auto AuraPlayerState = GetPlayerState<AAuraPlayerState>(); AuraPlayerState){
 		AbilitySystemComponent = AuraPlayerState->GetAbilitySystemComponent();
 		AttributeSet = AuraPlayerState->GetAttributeSet();
 		AbilitySystemComponent->InitAbilityActorInfo( AuraPlayerState, this);
+		Cast<UAuraAbilitySystemComponent>(AbilitySystemComponent)->AbilityActorInfoSet(); // AbilityActorInfoSet 非多态, 调用与指针类型有关 
 		if (const auto PlayerController = GetController<AAuraPlayerController>(); PlayerController) {
 			if (const auto HUD = Cast<AAuraHUD>(PlayerController->GetHUD()); HUD) {
 				HUD->InitOverlay(PlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet);

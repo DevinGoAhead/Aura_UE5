@@ -4,6 +4,8 @@
 
 class UAbilitySystemComponent;
 class UAttributeSet;
+class USkeletalMeshComponent;
+class UStaticMeshComponent;
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -23,15 +25,17 @@ public:
 
 protected:
 	virtual void BeginPlay() override;
-
+	virtual void InitAbilityActorInfo();
 protected:
 	UPROPERTY()
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
 	UPROPERTY()
 	TObjectPtr<UAttributeSet> AttributeSet;
-private:
-	UPROPERTY(EditDefaultsOnly, Category="Combat")
-	TObjectPtr<USkeletalMeshComponent> Weapon;
 
+	UPROPERTY(EditDefaultsOnly, Category="Combat")
+	TObjectPtr<UStaticMeshComponent> WeaponMesh;
+	UPROPERTY(EditDefaultsOnly, Category="Combat")
+	FName WeaponSocket = "WeaponHandSocket";
+private:
 
 };
