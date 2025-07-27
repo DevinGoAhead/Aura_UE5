@@ -34,6 +34,10 @@ void AAuraEnemy::UnHighLightSelf() {
 	GetMesh()->SetRenderCustomDepth(false);
 }
 
+uint8 AAuraEnemy::GetCharacterLevel() const{
+	return Level;
+}
+
 void AAuraEnemy::InitAbilityActorInfo(){
 	Super::InitAbilityActorInfo();
 	AbilitySystemComponent->InitAbilityActorInfo(this, this); // Owner == Avatar == This

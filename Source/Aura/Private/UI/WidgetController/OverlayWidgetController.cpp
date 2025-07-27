@@ -43,7 +43,7 @@ void UOverlayWidgetController::BindCallbacksToDependencies() {
 	AuraAttributeSet->GetMaxManaAttribute()).AddLambda([this](const FOnAttributeChangeData& NewData){
 		OnMaxManaChanged.Broadcast(NewData.NewValue);
 	});
-
+	// EffectAssetTags 是
 	Cast<UAuraAbilitySystemComponent>(AbilitySystemComponent)->EffectAssetTags.AddLambda([this](const FGameplayTagContainer& AssetTagContainer){
 		for (const auto& Tag : AssetTagContainer){
 			//FString Msg = FString::Printf(TEXT("GE Tag: %s"), GetData(Tag.ToString()));

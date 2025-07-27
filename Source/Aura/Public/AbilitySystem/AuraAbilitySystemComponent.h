@@ -18,5 +18,5 @@ public:
 	void AbilityActorInfoSet();
 	FEffectAssetTagsDelegate EffectAssetTags;
 protected:
-	void EffectAppliedToSelf(UAbilitySystemComponent* ASC, const FGameplayEffectSpec& GESpec, FActiveGameplayEffectHandle GEHandle);
+	void EffectAppliedToSelf(UAbilitySystemComponent* ASC, const FGameplayEffectSpec& GESpec, FActiveGameplayEffectHandle GEHandle) const;
 };

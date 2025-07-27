@@ -20,10 +20,10 @@ void AAuraEffectActor::ApplyEffectToTarget(AActor* TargetActor, TSubclassOf<clas
 	checkf(GameEffectClass, TEXT("GameEffectClass is invalid"));
 	if (const auto TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(TargetActor); TargetASC) {
 		auto GEContextHandle = TargetASC->MakeEffectContext();
-		// Sets the object this effect was created from
-		GEContextHandle.AddSourceObject(this);
+		GEContextHandle.AddSourceObject(this);// Sets the object this effect was created from
 		auto GESHandle = TargetASC->MakeOutgoingSpec(GameEffectClass, ActorLevel, GEContextHandle);
-		auto ActiveGameEffectHandle = TargetASC->ApplyGameplayEffectSpecToSelf(*GESHandle.Data.Get());
+		//auto ActiveGameEffectHandle = TargetASC->ApplyGameplayEffectSpecToSelf(*GESHandle.Data.Get());
+		auto ActiveGameEffectHandle = TargetASC->ApplyGameplayEffectSpecToTarget(*GESHandle.Data.Get(), TargetASC);
 		if (GESHandle.Data.Get()->Def.Get()->DurationPolicy == EGameplayEffectDurationType::Infinite){
 			ActiveEffectHandles.Add(ActiveGameEffectHandle, TargetASC);
 		}

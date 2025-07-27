@@ -35,7 +35,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMessageWidgetRowDelegate, const FUI
  * 
  */
 // 蓝图类型意味着我们可以在事件图中把它当作一种类型使用, 比如执行类型转换
-// 蓝图化意味着可以基于这个类创建蓝图
+// 蓝图化意味着可以基于这个类创建蓝图, 且这种性质可以继承
 UCLASS(Blueprintable, BlueprintType)
 class AURA_API UOverlayWidgetController : public UAuraWidgetController
 {

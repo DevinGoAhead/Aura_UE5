@@ -21,10 +21,18 @@ public:
 	AAuraPlayerState();
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 	inline UAttributeSet* GetAttributeSet() const { return AttributeSet;}
+	virtual void GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps ) const override;
+	FORCEINLINE uint8 GetCharacterLevel() const {return Level;}
 protected:
 private:
-	UPROPERTY()
+	UFUNCTION()
+	void OnRep_Level(const uint8& OldLevel);
+private:
+	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
-	UPROPERTY()
+	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<UAttributeSet> AttributeSet;
+
+	UPROPERTY(VisibleAnywhere, ReplicatedUsing=OnRep_Level)
+	uint8 Level = 1; // 等级
 };

@@ -49,9 +49,16 @@ void AAuraCharacter::OnRep_PlayerState() {
 	InitAbilityActorInfo(); // for client
 }
 
+uint8 AAuraCharacter::GetCharacterLevel() const{
+	auto AuraPlayerState = GetPlayerState<AAuraPlayerState>(); // APawn::
+	checkf (IsValid(AuraPlayerState), TEXT("PlayerState is InValid in %s"),*GetName());
+	return AuraPlayerState->GetCharacterLevel();
+}
+
 void AAuraCharacter::BeginPlay() {
 	Super::BeginPlay();
 }
+
 // 在 AAuraCharacter::PossessedBy 中被调用
 void AAuraCharacter::InitAbilityActorInfo() {
 	if (const auto AuraPlayerState = GetPlayerState<AAuraPlayerState>(); AuraPlayerState){
@@ -64,5 +71,6 @@ void AAuraCharacter::InitAbilityActorInfo() {
 				HUD->InitOverlay(PlayerController, AuraPlayerState, AbilitySystemComponent, AttributeSet);
 			}
 		}
+		InitialDefaultAttribute();
 	}
 }
